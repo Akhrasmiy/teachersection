@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Seekurs() {
+function TeachSeekurs() {
   return (
     <div>Seekurs</div>
   )
 }
 
-export default Seekurs
+export default TeachSeekurs

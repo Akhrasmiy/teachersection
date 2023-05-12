@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css';
 
-const SidebarCart = ({ img, text }) => {
+const TeachSidebarCart = ({ img, text }) => {
   return (
     <>
       <div className="sidebar-component">
@@ -12,4 +12,4 @@ const SidebarCart = ({ img, text }) => {
   );
 };
 
-export default SidebarCart;
+export default TeachSidebarCart;

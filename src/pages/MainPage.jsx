@@ -1,42 +1,39 @@
 import "./MainPage.css"
 import React from 'react'
-import { Input, Space } from "antd";
 import { Route,Routes } from "react-router-dom";
-import Allvedios from "../MainRoute/Allvedios";
-import Profile from "../MainRoute/Profile";
-import Baykurs from "../kurslar/Baykurs";
-import Hisoblar from "../MainRoute/Hisoblar";
-import Listkurs from "../MainRoute/Listkurs";
-import Seekurs from "../MainRoute/Seekurs";
-import Vediosinonekurs from "../MainRoute/Vediosinonekurs";
-import Hisoblarpulyichish from "../MainRoute/Hisoblarpulyichish";
-import Pulyichishok from "../MainRoute/Pulyichishok";
-import Freekurs from "../MainRoute/Freekurs";
-import Moneykurs from "../MainRoute/Moneykurs";
-import Updatekurs from "../MainRoute/Updatekurs";
-import Kurss from "../kurslar/Kurss";
-import Createkurs from "../MainRoute/Createkurs";
-import Updateonekurs from "../MainRoute/Updateonekurs";
-function MainPage() {
+import TeachAllvedios from "../MainRoute/Allvedios";
+import TeachProfile from "../MainRoute/Profile";
+import TeachHisoblar from "../MainRoute/Hisoblar";
+import TeachSeekurs from "../MainRoute/Seekurs";
+import TeachVediosinonekurs from "../MainRoute/Vediosinonekurs";
+import TeachHisoblarpulyichish from "../MainRoute/Hisoblarpulyichish";
+import TeachPulyichishok from "../MainRoute/Pulyichishok";
+import TeachFreekurs from "../MainRoute/Freekurs";
+import TeachMoneykurs from "../MainRoute/Moneykurs";
+import TeachUpdatekurs from "../MainRoute/Updatekurs";
+import TeachKurss from "../kurslar/Kurss";
+import TeachCreatekurs from "../MainRoute/Createkurs";
+import TeachUpdateonekurs from "../MainRoute/Updateonekurs";
+function TeachMainPage() {
     return (
         <div className="homepage">
             <Routes>
-                <Route path="/" element={<Allvedios />}/>
-                <Route path="/seekurs:kursId" element={<Seekurs />}/>
-                <Route path="/vediosinonekurs" element={<Vediosinonekurs />}/>
-                <Route path="/hisoblar" element={<Hisoblar />} />
-                <Route path="/hisoblar/pulyichish" element={<Hisoblarpulyichish />} />
-                <Route path="/hisoblar/pulyichish/ok" element={<Pulyichishok />} />
-                <Route path="/Kurs/:id" element={<Kurss />} />
-                <Route path="/kurs/" element={<Createkurs />} />
-                <Route path="/kurs/free" element={<Freekurs />} />
-                <Route path="/kurs/money" element={<Moneykurs />} />
-                <Route path="/update/kurs/" element={<Updatekurs />} />
-                <Route path="/update/kurs/:Id" element={<Updateonekurs />} />
-                <Route path="/profile" element={<Profile />} />
+                <Route path="/" element={<TeachAllvedios />}/>
+                <Route path="/seekurs:kursId" element={<TeachSeekurs />}/>
+                <Route path="/vediosinonekurs" element={<TeachVediosinonekurs />}/>
+                <Route path="/hisoblar" element={<TeachHisoblar />} />
+                <Route path="/hisoblar/pulyichish" element={<TeachHisoblarpulyichish />} />
+                <Route path="/hisoblar/pulyichish/ok" element={<TeachPulyichishok />} />
+                <Route path="/Kurs/:id" element={<TeachKurss />} />
+                <Route path="/kurs/" element={<TeachCreatekurs />} />
+                <Route path="/kurs/free" element={<TeachFreekurs />} />
+                <Route path="/kurs/money" element={<TeachMoneykurs />} />
+                <Route path="/update/kurs/" element={<TeachUpdatekurs />} />
+                <Route path="/update/kurs/:Id" element={<TeachUpdateonekurs />} />
+                <Route path="/profile" element={<TeachProfile />} />
             </Routes>
         </div>
     )
 }
 
-export default MainPage
+export default TeachMainPage

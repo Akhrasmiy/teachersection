@@ -1,9 +1,7 @@
 import React from "react";
-import Obuna from "../sitebarRoute/Obuna";
 import opacha from "../imgs/big-logo.png";
-import Userprofile from "../components/userprofile";
 
-function Profile() {
+function TeachProfile() {
 
     let me = [
         {
@@ -72,4 +70,4 @@ function Profile() {
   );
 }
 
-export default Profile;
+export default TeachProfile;

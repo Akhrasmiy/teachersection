@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-function Hisoblarpulyichish() {
+function TeachHisoblarpulyichish() {
     return (
         <div>
             <NavLink to="/hisoblar/pulyichish/ok"> davom etish</NavLink>
@@ -10,4 +10,4 @@ function Hisoblarpulyichish() {
     )
 }
 
-export default Hisoblarpulyichish
+export default TeachHisoblarpulyichish

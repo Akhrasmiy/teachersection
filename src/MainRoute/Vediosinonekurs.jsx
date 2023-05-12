@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Vediosinonekurs() {
+function TeachVediosinonekurs() {
   return (
     <div>Vediosinonekurs</div>
   )
 }
 
-export default Vediosinonekurs
+export default TeachVediosinonekurs

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./style.css";
-function Commint(props) {
+function TeachCommint(props) {
   return (
     <div className='commit-div'>
         <p>{props.commint.text}</p>
@@ -10,4 +10,4 @@ function Commint(props) {
   )
 }
 
-export default Commint
+export default TeachCommint

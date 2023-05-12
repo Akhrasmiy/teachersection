@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "./style.css";
-import Userprofile from "../components/userprofile";
+import TeachUserprofile from "../components/Userprofile";
 import nav1 from "../imgs/nav1.png";
 import nav2 from "../imgs/nav2.png";
 import nav3 from "../imgs/nav3.png";
@@ -9,7 +9,7 @@ function Nav() {
   return (
     <div className="Nav user-navbar">
       <div>
-        <Userprofile />
+        <TeachUserprofile />
       </div>
       <ul>
         <li>

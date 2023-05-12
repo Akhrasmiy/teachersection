@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Moneykurs() {
+function TeachMoneykurs() {
   return (
     <div>Moneykurs</div>
   )
 }
 
-export default Moneykurs
+export default TeachMoneykurs

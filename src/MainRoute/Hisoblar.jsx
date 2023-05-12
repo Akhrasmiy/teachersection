@@ -5,7 +5,7 @@ let money = 650000
 money = money.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
 let hisobraqam = 1234567890123456
 hisobraqam = hisobraqam.toString().replace(/\B(?=(\d{4})+(?!\d))/g, ' ')
-function Hisoblar() {
+function TeachHisoblar() {
     return (
         <div className="main-page" >
             <div className="w100">
@@ -28,4 +28,4 @@ function Hisoblar() {
     )
 }
 
-export default Hisoblar
+export default TeachHisoblar

@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Freekurs() {
+function TeachFreekurs() {
   return (
     <div>Freekurs</div>
   )
 }
 
-export default Freekurs
+export default TeachFreekurs

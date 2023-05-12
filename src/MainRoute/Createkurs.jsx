@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-const Createkurs = () => {
+const TeachCreatekurs = () => {
   return (
     <div className="main-page">
       <div className="w100">
@@ -13,4 +13,4 @@ const Createkurs = () => {
   )
 }
 
-export default Createkurs
+export default TeachCreatekurs

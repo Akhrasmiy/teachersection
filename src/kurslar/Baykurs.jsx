@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.css"
-function Baykurs() {
+function TeachBaykurs() {
   return (
     <div style={{ display: "flex" }}>
       <div className='fife'>
@@ -10,4 +10,4 @@ function Baykurs() {
   )
 }
 
-export default Baykurs
+export default TeachBaykurs

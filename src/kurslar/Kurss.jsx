@@ -1,15 +1,9 @@
 import React from 'react'
-import Comminets from '../sitebarRoute/Comminets'
 import { useNavigate, useParams } from 'react-router-dom';
 import teacher1 from "../imgs/teacher-home1.png"
 import teacher2 from "../imgs/teacher-home2.png"
 import teacher3 from "../imgs/teacher-home3.png"
 import teacher4 from "../imgs/teacher-home4.png"
-import img12 from "../imgs/big-main1.png"
-import img13 from "../imgs/big-main2.png"
-import img14 from "../imgs/big-main3.png"
-import img15 from "../imgs/big-main1.png"
-import img16 from "../imgs/big-main2.png"
 import imgs1 from "../imgs/main1.png"
 import imgs2 from "../imgs/main2.png"
 import imgs3 from "../imgs/main3.png"
@@ -21,7 +15,7 @@ import izohlar4 from "../imgs/izohlar4.png"
 import save from "../imgs/save.png"
 import coin from "../imgs/coin.png"
 import heart from "../imgs/heart.png"
-function Kurss() {
+function TeachKurss() {
   const { kursId } = useParams();
   let a=[
     {
@@ -214,4 +208,4 @@ function Kurss() {
   )
 }
 
-export default Kurss
+export default TeachKurss

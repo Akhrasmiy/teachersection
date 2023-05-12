@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import "./index.css";
-const UpdateCart = (props) => {
+const TeachUpdateCart = (props) => {
   const navigate = useNavigate();
   const { img, name, autorId } = props.cart;
   let kursId = props.cart.kursId;
@@ -23,4 +23,4 @@ const UpdateCart = (props) => {
   );
 };
 
-export default UpdateCart;
+export default TeachUpdateCart;

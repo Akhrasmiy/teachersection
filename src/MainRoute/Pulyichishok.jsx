@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Pulyichishok() {
+function TeachPulyichishok() {
     return (
         <div>
            <h1> pul yichildi ok</h1>
@@ -8,4 +8,4 @@ function Pulyichishok() {
     )
 }
 
-export default Pulyichishok
+export default TeachPulyichishok

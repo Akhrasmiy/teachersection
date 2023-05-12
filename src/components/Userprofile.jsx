@@ -1,7 +1,7 @@
 import React from 'react'
 import opacha from "../imgs/user-logo.png"
 import "./style.css"
-function Userprofile() {
+function TeachUserprofile() {
     let name = "Name"
     let surname = "Surname"
     return (
@@ -14,4 +14,4 @@ function Userprofile() {
     )
 }
 
-export default Userprofile
+export default TeachUserprofile
